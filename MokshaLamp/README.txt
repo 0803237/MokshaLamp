@@ -65,3 +65,8 @@ Assignment-1
 Successfully opened table.
 
 0743: Examined Controllers/MoviesController.cs, Views/Movies/Details.cshtml, Index.cshtml and Index method in LampsController.
+
+0839: Added seeddata
+	Changed program.cs file main method
+	and tested the app :)
+	Successfully all 10 seed data are added.	
