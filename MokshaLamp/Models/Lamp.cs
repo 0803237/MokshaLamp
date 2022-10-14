@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 
 namespace MokshaLamp.Models
 {
@@ -19,6 +21,8 @@ namespace MokshaLamp.Models
 
         public int Dimension { get; set; }
 
+        [Range(1, 500), DataType(DataType.Currency)]
+        [Column(TypeName = "decimal(20, 2)")]
         public decimal Price { get; set; }
     }
 }

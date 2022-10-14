@@ -57,3 +57,5 @@ Assignment-1
 
 0712: Figured it out by changing configuration in startup.cs file.
 
+0721: Added Migration and Updated it.
+
