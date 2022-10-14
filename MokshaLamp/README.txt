@@ -63,3 +63,5 @@ Assignment-1
 
 0731: Runned the app and clicked on Lamp App
 Successfully opened table.
+
+0743: Examined Controllers/MoviesController.cs, Views/Movies/Details.cshtml, Index.cshtml and Index method in LampsController.
