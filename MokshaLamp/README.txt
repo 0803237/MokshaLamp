@@ -124,3 +124,19 @@ Successfully opened table.
 
 1043: Tested app
 
+																PART-8
+
+==================== Adding new Field ===============================
+
+
+1052: Adding rating in Models/Lamp.cs
+	 /Views/Lamps/Index.cshtml file
+	 and /Views/Lamps/Create.cshtml file
+
+1057: Added Ratings field in seeddata
+
+1058: Added Migration Rating and updated it
+
+1059: Run the app and yeeeeehhh it successfully added Rating field in it.
+
+

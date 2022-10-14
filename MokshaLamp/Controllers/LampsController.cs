@@ -77,7 +77,7 @@ namespace MokshaLamp.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Category,ManufactureDate,Color,Material,Dimension,Price")] Lamp lamp)
+        public async Task<IActionResult> Create([Bind("Id,Category,ManufactureDate,Color,Material,Dimension,Price,Rating")] Lamp lamp)
         {
             if (ModelState.IsValid)
             {
@@ -109,7 +109,7 @@ namespace MokshaLamp.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Category,ManufactureDate,Color,Material,Dimension,Price")] Lamp lamp)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Category,ManufactureDate,Color,Material,Dimension,Price,Rating")] Lamp lamp)
         {
             if (id != lamp.Id)
             {

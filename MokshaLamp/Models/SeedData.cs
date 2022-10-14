@@ -30,7 +30,8 @@ namespace MokshaLamp.Models
                         Color = "Pink",
                         Material = "Metal",
                         Dimension = 11,
-                        Price = 10.99M
+                        Price = 10.99M,
+                        Rating = "R"
                     },
 
                     new Lamp
@@ -40,7 +41,8 @@ namespace MokshaLamp.Models
                         Color = "black",
                         Material = "Ceramic",
                         Dimension = 30,
-                        Price = 6.78M
+                        Price = 6.78M,
+                        Rating = "R"
                     },
 
                     new Lamp
@@ -50,7 +52,8 @@ namespace MokshaLamp.Models
                         Color = "Purple",
                         Material = "Metal",
                         Dimension = 21,
-                        Price = 9.99M
+                        Price = 9.99M,
+                        Rating = "R"
                     },
 
                     new Lamp
@@ -60,7 +63,8 @@ namespace MokshaLamp.Models
                         Color = "Maroon",
                         Material = "Plastic",
                         Dimension = 31,
-                        Price = 10.23M
+                        Price = 10.23M,
+                        Rating = "R"
                     },
 
                     new Lamp
@@ -70,7 +74,8 @@ namespace MokshaLamp.Models
                         Color = "Orange",
                         Material = "Glass",
                         Dimension = 7,
-                        Price = 4.12M
+                        Price = 4.12M,
+                        Rating = "R"
                     },
 
                     new Lamp
@@ -80,7 +85,8 @@ namespace MokshaLamp.Models
                         Color = "Blue",
                         Material = "Wood",
                         Dimension = 27,
-                        Price = 13.99M
+                        Price = 13.99M,
+                        Rating = "R"
                     },
 
                     new Lamp
@@ -90,7 +96,8 @@ namespace MokshaLamp.Models
                         Color = "Yellow",
                         Material = "Glass",
                         Dimension = 17,
-                        Price = 8.49M
+                        Price = 8.49M,
+                        Rating = "R"
                     },
 
                     new Lamp
@@ -100,7 +107,8 @@ namespace MokshaLamp.Models
                         Color = "Brass",
                         Material = "Metal",
                         Dimension = 19,
-                        Price = 12.89M
+                        Price = 12.89M,
+                        Rating = "R"
                     },
 
                     new Lamp
@@ -110,7 +118,8 @@ namespace MokshaLamp.Models
                         Color = "Copper",
                         Material = "Metal",
                         Dimension = 38,
-                        Price = 8.99M
+                        Price = 8.99M,
+                        Rating = "R"
                     },
 
                     new Lamp
@@ -120,7 +129,8 @@ namespace MokshaLamp.Models
                         Color = "Black",
                         Material = "Wood",
                         Dimension = 42,
-                        Price = 15.29M
+                        Price = 15.29M,
+                        Rating = "R"
                     }
                 );
                 context.SaveChanges();
