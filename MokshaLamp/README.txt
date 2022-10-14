@@ -4,6 +4,9 @@ Assignment-1
 
 10/14/2022
 
+																PART-1
+
+
 0436: Created a web application named MokshaLamp with 3.1version , Individual account, Configure HTTP checked and some more steps.
 
 0437: Now I will build my project and run it to see if it successfully runs or not.
@@ -15,6 +18,9 @@ Assignment-1
 
 0450: Modified background color
 
+																PART-2
+
+
 ==================== Adding a controller ===============================
 0456: Created HelloWorldController file in controller and changed its index and welcome method to display some message on screen.
 
@@ -22,6 +28,9 @@ Assignment-1
 
 0459: Run the program and its successfully running.
 		Again changed welcome method to see some other output.
+
+																PART-3
+
 
 ==================== Adding a View ===============================
 
@@ -42,6 +51,9 @@ Assignment-1
 0557: Added content in About Us page.
 
 0631: Edited Index.cshtml file to include photos, giving special effects, changing fonts and make some changes in it using HTML, CSS and Bootstrap.
+
+																PART-4
+
 
 ==================== Adding a Models ===============================
 
@@ -66,7 +78,27 @@ Successfully opened table.
 
 0743: Examined Controllers/MoviesController.cs, Views/Movies/Details.cshtml, Index.cshtml and Index method in LampsController.
 
+																PART-5
+
+
+==================== Working with Database ===============================
+
 0839: Added seeddata
+
 	Changed program.cs file main method
-	and tested the app :)
-	Successfully all 10 seed data are added.	
+
+	and tested the app
+
+	Successfully all 10 seed data are added	:)
+	Break time.....
+
+																PART-6
+
+==================== Controller actions and views ===============================
+
+0951: Made changes in Lamp.cs file
+
+0954: Examined Index.cshtml file in Lamp folder and Edit.cshtml files
+
+1001: Run the app and view page souce of edit
+1007: Checked validation by entering wrong data

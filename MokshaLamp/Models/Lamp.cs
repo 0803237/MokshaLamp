@@ -13,6 +13,7 @@ namespace MokshaLamp.Models
         public int Id { get; set; }
         public string Category { get; set; }
 
+        [Display(Name = "Release Date")]
         [DataType(DataType.Date)]
         public DateTime ManufactureDate { get; set; }
         public string Color { get; set; }
@@ -22,7 +23,7 @@ namespace MokshaLamp.Models
         public int Dimension { get; set; }
 
         [Range(1, 500), DataType(DataType.Currency)]
-        [Column(TypeName = "decimal(20, 2)")]
+        [Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; }
     }
 }
