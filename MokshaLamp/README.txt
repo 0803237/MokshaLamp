@@ -59,3 +59,7 @@ Assignment-1
 
 0721: Added Migration and Updated it.
 
+0728: Changed annotation in __InitialCreate.cs file
+
+0731: Runned the app and clicked on Lamp App
+Successfully opened table.

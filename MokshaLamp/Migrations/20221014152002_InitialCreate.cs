@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace MokshaLamp.Migrations
@@ -12,7 +13,9 @@ namespace MokshaLamp.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                        /*.Annotation("SqlServer:Identity", "1, 1"),*/
+                        .Annotation("SqlServer:ValueGenerationStrategy",
+                                 SqlServerValueGenerationStrategy.IdentityColumn),
                     Category = table.Column<string>(nullable: true),
                     ManufactureDate = table.Column<DateTime>(nullable: false),
                     Color = table.Column<string>(nullable: true),
