@@ -38,3 +38,5 @@ Assignment-1
 0520: Cretaed welcome.cshtml file in HelloWorld folder.
 
 0525: Created About.cshtml page in Home folder and edited content of _Layout.cshtml and HomeController.cs
+
+0557: Added content in About Us page.
