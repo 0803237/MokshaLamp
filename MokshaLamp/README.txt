@@ -16,4 +16,24 @@ Assignment-1
 0450: Modified background color
 
 ==================== Adding a controller ===============================
-0456: Created HelloWorldController file in controller and changed its index and welcome method to display some message on screen
+0456: Created HelloWorldController file in controller and changed its index and welcome method to display some message on screen.
+
+0458: Changed welcome method to see some other output on screen.
+
+0459: Run the program and its successfully running.
+		Again changed welcome method to see some other output.
+
+==================== Adding a View ===============================
+
+0502: replaced index method in HelloWorldController to call the controller View method.
+
+0504: Added folder in view named HelloWorld and added an Index.cshtml file in it.
+
+0508: Edited _Layout.cshtml file in Shared folder
+
+0510: Changed Title in Index.cshtml file.
+
+0512: Updated Welcome method in HelloWorlCOntroller.cs file
+
+0520: Cretaed welcome.cshtml file in HelloWorld folder.
+
