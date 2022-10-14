@@ -20,9 +20,32 @@ namespace MokshaLamp.Controllers
         }
 
         // GET: Lamps
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string lampColor, string searchString) // Adds search box
         {
-            return View(await _context.Lamp.ToListAsync());
+            IQueryable<string> colorQuery = from m in _context.Lamp
+                                            orderby m.Color
+                                            select m.Color;
+
+            var lamps = from m in _context.Lamp
+                         select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                lamps = lamps.Where(s => s.Category.Contains(searchString));  // Search by category
+            }
+
+            if (!string.IsNullOrEmpty(lampColor))
+            {
+                lamps = lamps.Where(x => x.Color == lampColor);
+            }
+
+            var lampColorVM = new LampColorViewModel
+            {
+                Colors = new SelectList(await colorQuery.Distinct().ToListAsync()),
+                Lamps = await lamps.ToListAsync()
+            };
+
+            return View(lampColorVM);
         }
 
         // GET: Lamps/Details/5

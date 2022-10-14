@@ -102,3 +102,25 @@ Successfully opened table.
 
 1001: Run the app and view page souce of edit
 1007: Checked validation by entering wrong data
+
+																PART-7
+
+
+==================== Adding search box ===============================
+
+1013: Updated index method in LampsController.cs file to search ittems by category
+
+1016: Tested the app by running
+
+1020: Added form in Index.cshtml file in Lamps folder
+
+1021: Tested by searching
+
+1026: Included get method in form
+
+1033: Updated LampsController.cs file to retrive colors from the database.
+
+1042: Updated Index.cshtml file in Lamps folder
+
+1043: Tested app
+
