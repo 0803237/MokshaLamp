@@ -2,12 +2,144 @@
     ViewData["Title"] = "Home Page";
 }
 <style>
-
-    .text-center {
-        background-color: #ffbc06;
+    body {
+        font-family:'Bookman Old Style';
     }
+
+    .portfolio_buttons {
+        width: 100%;
+        /* height: 50px; */
+        /* background-color: lightcoral; */
+        margin-top: 0px;
+    }
+
+
+        .portfolio_buttons .box_a:hover {
+            color: white;
+        }
+
+        .portfolio_buttons .box_b:hover {
+            background-color: #ffbc06;
+            color: white !important;
+        }
+
+    .box_a a {
+        background-color: #ffbc06 !important;
+        color: white !important;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .box_b {
+        border: none !important;
+    }
+
+        .box_b a {
+            color: #444444 !important;
+            font-size: 14px !important;
+            font-weight: 600 !important;
+            border: none !important;
+        }
+
+    .page-link:hover {
+        background-color: #ffbc06 !important;
+        color: white !important;
+    }
+
+    .purple_hover {
+        border-radius: 0% !important;
+        overflow: hidden;
+        border: 0%;
+        padding: 0px;
+        position: relative;
+    }
+
+        .purple_hover::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transform: scale(0);
+            transition: 0.5s;
+            background-color: rgba(255, 188, 6, 0.5);
+        }
+
+        .purple_hover:hover:before {
+            content: "";
+            background-color: rgba(255, 188, 6, 0.5);
+            width: 100%;
+            transform: scale(1);
+            transition: 0.5s;
+            position: absolute;
+            height: 100%;
+        }
+
+        .magnum_text {
+            background-color: white;
+        }
+
 </style>
 
 <div class="text-center">
     <h1 class="display-4"><b>Moonlight Lamps</b></h1>
 </div>
+
+<section id="portfolio">
+    <div class="container my-5">
+        <div class="magnum_text text-center px-0 mb-3">
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center mb-5">
+                <li class="page-item box_a">
+                    <a class="page-link mr-2 rounded-right" href="#">ALL</a>
+                </li>
+                <li class="page-item box_b"><a class="page-link mr-2 rounded" href="#">Bedroom</a></li>
+                <li class="page-item box_b"><a class="page-link mr-2 rounded" href="#">Outdoor</a></li>
+                <li class="page-item box_b"><a class="page-link mr-2 rounded" href="#">Wall</a></li>
+            </ul>
+        </nav>
+
+        <div class="card-columns">
+            <div class="card purple_hover">
+                <img class="card-img-top" src="https://images.pexels.com/photos/939331/pexels-photo-939331.jpeg?cs=srgb&dl=pexels-daan-stevens-939331.jpg&fm=jpg" alt="Card image cap">
+            </div>
+
+            <div class="card purple_hover">
+                <img class="card-img-top" src="https://images.pexels.com/photos/1067465/pexels-photo-1067465.jpeg?cs=srgb&dl=pexels-brett-sayles-1067465.jpg&fm=jpg" alt="Card image cap">
+            </div>
+            <div class="card purple_hover">
+                <img class="card-img-top" src="https://images.pexels.com/photos/2233416/pexels-photo-2233416.jpeg?cs=srgb&dl=pexels-ahmed-aqtai-2233416.jpg&fm=jpg" alt="Card image cap">
+
+            </div>
+
+            <div class="card purple_hover">
+                <img class="card-img-top" src="https://images.pexels.com/photos/1657378/pexels-photo-1657378.jpeg?cs=srgb&dl=pexels-marius-mann-1657378.jpg&fm=jpg" alt="Card image cap">
+            </div>
+
+            <div class="card purple_hover">
+                <img class="card-img" src="https://images.pexels.com/photos/1457844/pexels-photo-1457844.jpeg?cs=srgb&dl=pexels-jean-van-der-meulen-1457844.jpg&fm=jpg" alt="Card image">
+            </div>
+
+            <div class="card purple_hover">
+                <img class="card-img" src="https://images.pexels.com/photos/788855/pexels-photo-788855.jpeg?cs=srgb&dl=pexels-nikita-khandelwal-788855.jpg&fm=jpg" alt="Card image">
+            </div>
+
+            <div class="card purple_hover">
+                <img class="card-img" src="https://images.pexels.com/photos/941794/pexels-photo-941794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card image">
+            </div>
+
+            <div class="card purple_hover">
+                <img class="card-img" src="https://images.pexels.com/photos/1176516/pexels-photo-1176516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card image">
+            </div>
+
+            <div class="card purple_hover">
+                <img class="card-img" src="https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card image">
+            </div>
+            <div class="card purple_hover">
+                <img class="card-img" src="https://images.pexels.com/photos/3043798/pexels-photo-3043798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card image">
+            </div>
+        </div>
+        </div>
+    </section>
+

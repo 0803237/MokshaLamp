@@ -40,3 +40,5 @@ Assignment-1
 0525: Created About.cshtml page in Home folder and edited content of _Layout.cshtml and HomeController.cs
 
 0557: Added content in About Us page.
+
+0631: Edited Index.cshtml file to include photos, giving special effects, changing fonts and make some changes in it using HTML, CSS and Bootstrap.
