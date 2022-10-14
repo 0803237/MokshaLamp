@@ -48,3 +48,12 @@ Assignment-1
 0648: Created lamp.cs file and added 6 fields in it.
 
 0650: Installed Microsoft.EntityFrameworkCore by running "Install-Package Microsoft.EntityFrameworkCore.SqlServer" in console.
+
+0655: Created MokshaLampContext.cs file in Data folder.
+
+0702: Changed Startup.ConfigureServices and appsettings.json to add MokshaLampContext database in it.
+
+0708: Error in creating scaffolding
+
+0712: Figured it out by changing configuration in startup.cs file.
+
