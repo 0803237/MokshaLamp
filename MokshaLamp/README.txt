@@ -42,3 +42,9 @@ Assignment-1
 0557: Added content in About Us page.
 
 0631: Edited Index.cshtml file to include photos, giving special effects, changing fonts and make some changes in it using HTML, CSS and Bootstrap.
+
+==================== Adding a Models ===============================
+
+0648: Created lamp.cs file and added 6 fields in it.
+
+0650: Installed Microsoft.EntityFrameworkCore by running "Install-Package Microsoft.EntityFrameworkCore.SqlServer" in console.
