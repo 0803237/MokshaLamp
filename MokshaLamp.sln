@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MokshaLamp", "MokshaLamp\MokshaLamp.csproj", "{B80DDD3E-EDF5-4395-AAD3-2A81F62EFB6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B80DDD3E-EDF5-4395-AAD3-2A81F62EFB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80DDD3E-EDF5-4395-AAD3-2A81F62EFB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80DDD3E-EDF5-4395-AAD3-2A81F62EFB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80DDD3E-EDF5-4395-AAD3-2A81F62EFB6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {091E3F40-76CE-4DF7-9290-5D5350A974EC}
+	EndGlobalSection
+EndGlobal
