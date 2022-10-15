@@ -21,7 +21,7 @@ Assignment-1
 																PART-2
 
 
-==================== Adding a controller ===============================
+==================================================== Adding a controller ====================================================
 0456: Created HelloWorldController file in controller and changed its index and welcome method to display some message on screen.
 
 0458: Changed welcome method to see some other output on screen.
@@ -32,7 +32,7 @@ Assignment-1
 																PART-3
 
 
-==================== Adding a View ===============================
+==================================================== Adding a View ====================================================
 
 0502: replaced index method in HelloWorldController to call the controller View method.
 
@@ -55,7 +55,7 @@ Assignment-1
 																PART-4
 
 
-==================== Adding a Models ===============================
+==================================================== Adding a Models ====================================================
 
 0648: Created lamp.cs file and added 6 fields in it.
 
@@ -81,7 +81,7 @@ Successfully opened table.
 																PART-5
 
 
-==================== Working with Database ===============================
+==================================================== Working with Database ====================================================
 
 0839: Added seeddata
 
@@ -94,7 +94,7 @@ Successfully opened table.
 
 																PART-6
 
-==================== Controller actions and views ===============================
+==================================================== Controller actions and views ====================================================
 
 0951: Made changes in Lamp.cs file
 
@@ -106,7 +106,7 @@ Successfully opened table.
 																PART-7
 
 
-==================== Adding search box ===============================
+==================================================== Adding search box ====================================================
 
 1013: Updated index method in LampsController.cs file to search ittems by category
 
@@ -122,11 +122,11 @@ Successfully opened table.
 
 1042: Updated Index.cshtml file in Lamps folder
 
-1043: Tested app
+1043: Successfully Tested App :) 
 
 																PART-8
 
-==================== Adding new Field ===============================
+==================================================== Adding new Field ====================================================
 
 
 1052: Adding rating in Models/Lamp.cs
@@ -137,6 +137,24 @@ Successfully opened table.
 
 1058: Added Migration Rating and updated it
 
-1059: Run the app and yeeeeehhh it successfully added Rating field in it.
+1059: Run the app and yeeeeehhh it successfully added Rating field in it :)
+
+																PART-9
+
+==================================================== Adding Validation ====================================================
+
+1127: Updated lamp class to include Required, StringLength, RegularExpression, and Range validation attributes in it.
+1138: Examined all files
+
+1142: Run the app and tested if valid data is inserted or not
+
+break time.............
+																PART-10
+
+==================================================== Examined detail and delete ====================================================
+
+0546: Examined all files and made changes as suggested in tutorial
+0549: finally created my web application wooooooohhhhhooooooo
+
 
 

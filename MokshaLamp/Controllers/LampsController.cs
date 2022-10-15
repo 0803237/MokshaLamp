@@ -139,6 +139,11 @@ namespace MokshaLamp.Controllers
             return View(lamp);
         }
 
+        private bool LampExists(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         // GET: Lamps/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
@@ -160,7 +165,7 @@ namespace MokshaLamp.Controllers
         // POST: Lamps/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(int id, bool notUsed)
         {
             var lamp = await _context.Lamp.FindAsync(id);
             _context.Lamp.Remove(lamp);
@@ -168,9 +173,9 @@ namespace MokshaLamp.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool LampExists(int id)
+        /*private bool LampExists(int id)
         {
             return _context.Lamp.Any(e => e.Id == id);
-        }
+        }*/
     }
 }
