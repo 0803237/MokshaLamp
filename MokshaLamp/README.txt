@@ -156,5 +156,6 @@ break time.............
 0546: Examined all files and made changes as suggested in tutorial
 0549: finally created my web application wooooooohhhhhooooooo
 
+0554: oh..oh.. I need to edit my index.cshtml in home folder
 
-
+0650: Finally done with project
